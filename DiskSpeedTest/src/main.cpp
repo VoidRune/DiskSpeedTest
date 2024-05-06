@@ -90,5 +90,7 @@ int main(int argc, char* argv[])
 		std::cout << "Execution arguments are incorrect, options are 'r' for read or 'w' for write";
 	}
 	std::cin;
+	char c = std::getchar();
+
 	return 0;
 }
